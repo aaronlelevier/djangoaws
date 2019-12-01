@@ -1,4 +1,10 @@
 django
-jupyter
 boto3
 
+# test
+pytest
+pytest-django
+
+# dev
+jupyter
+django-extensions
