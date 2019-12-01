@@ -13,12 +13,24 @@ python3 -m venv venv
 pip install -r requirements.txt
 ```
 
-Then launch Python
+Then, create Postgres database
+
+```
+$ psql
+CREATE DATABASE djangoaws
+\q
+```
+
+Next, migrate initial Django schema
+
+```
+./manage.py makemigrations
+./manage.py
+```
 
 # Usage
 
 Here is some example usage
-
 
 ```python
 import boto3
