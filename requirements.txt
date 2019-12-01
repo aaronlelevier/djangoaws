@@ -1,0 +1,4 @@
+django
+jupyter
+boto3
+
